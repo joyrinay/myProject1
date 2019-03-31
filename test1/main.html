@@ -9,7 +9,42 @@
         <link rel="stylesheet" href="totrial.css">
     </head>
     <body>
-		<div id="slectMenu" class="slectMenu1">
+		<div id="customer">
+			<button id="selectColor">Select color</button><br>
+			<label for="selectSize">Select a size</label>
+			<select id="selectSize">
+					<option value="">--Please choose an option--</option>
+					<option value="small">Small</option>
+					<option value="larg">Larg</option>
+					<option value="xlarg">XLarg</option>
+				</select>
+				<label for="email">Your email : </label>
+				<input type="text" id="email" name="email" placeholder="E-mail">
+				<label for="companyName">Comapny :</label>
+				<input type="text" id="companyName" name="companyName" placeholder="Comany ...">
+				<button id="customerOk">Ok</button>
+				
+			<div id="customerColors">
+				<span id="closeCustomerColors">Close</span>
+				<div id="customerColorsContainer">
+				</div>
+				
+			</div>
+		</div>
+		<div id="company">
+				<label for="companyName">Comapny :</label>
+				<input type="color" id="colorPiker" name="colorPiker" value="#e66465">
+				<button id="addColor">add</button><br>
+				<label for="addSize">Add new size :</label>
+				<input type="text" id="addSize" name="addSize" placeholder="new size...">
+				<button id="newSizeOk">Ok</button><br>
+				<button id="deleteColor">Delet color</button>
+				
+		</div>
+		<div id="output">
+			
+		</div>
+		<!-- <div id="slectMenu" class="slectMenu1">
 		<button id="btn" class="btn1">slecte color</button>
 		
         <div id="father" class="cfather"></div>
@@ -27,7 +62,7 @@
 			
 			
 			</div>
-			<button id="btnType" style="" >type</button>
+			<button id="btnType"  >type</button>
 			
 		<input type="text" id="txtem" placeholder="enter email" style="margin-top: 140px;" />
 			<input type="text" id="txtaddr" placeholder="enter addreas"/>
@@ -36,11 +71,14 @@
 			</div>
 		 
 		<div id="addandDelete" class="addAdelete">
+				
 		<input id="addordelet" type="text" class="aord"/>
-			<button id="add" class="add1">Add</button>
-			<button id="delete" class="delete1">delete</button>
-			<button id="appch" class="appchild">append child</button>
-			<button id="removChild" class="removChild1">remove child</button>
+			<div>
+					<button id="add" class="add1">Add</button>
+					<button id="delete" class="delete1">delete</button>
+					<button id="appch" class="appchild">append child</button>
+					<button id="removChild" class="removChild1">remove child</button>
+			</div>
 			<br>
 			<input type="text" id="txtSize" class="txtSize" style="margin-top:70px;" />
 			<button id="addSize" style="margin-top: 0px;" >add</button>
@@ -51,7 +89,7 @@
     <h1 id="h1" class="h">welcom</h1> 
 		<h1 id="email"	>your email</h1>
 			<h1 id="addres">yuor addreas</h1>
-			</div>
-        <script src="forjs.js" ></script>
+			</div> -->
+        <script src="js1.js" ></script>
     </body>    
 </html>
